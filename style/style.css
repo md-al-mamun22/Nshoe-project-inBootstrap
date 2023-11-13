@@ -13,6 +13,7 @@
     border-radius: 40px;
     margin-top: 20px;
     transition: all 0.3s ease-in-out;
+    font-family: 'Rubik', sans-serif;
 }
 
 .btn-booknow:hover {
@@ -93,6 +94,10 @@ span {
 
 
 /* feature section style  */
+.Features{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(236, 244, 244, 1) 100%);
+
+}
 
 .Features p {
     color: #06122c;
@@ -132,5 +137,42 @@ span {
     font-size: 14px;
     color: #818282;
     font-weight: 300;
+}
 
+/* related-product style  */
+.related-product {
+    background-color: #ecf4f4;
+}
+.related-product2 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(236, 244, 244, 1) 100%);
+}
+
+.related-product h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    color: #06122c;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.related-product2 h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    color: #06122c;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.related-product p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #818282;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+}
+.related-product2 p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #818282;
+    font-weight: 300;
+    margin-bottom: 1.5em;
 }
