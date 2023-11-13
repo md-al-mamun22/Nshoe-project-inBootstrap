@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Lobster&family=Montserrat&family=Roboto:wght@300;700;900&family=Rubik:wght@300;400;500&family=Saira+Semi+Condensed:wght@700&display=swap');
+
+
+/* common btn  */
+.btn-booknow {
+    display: inline-block;
+    background: #ffc600;
+    color: #06122c;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px 8px;
+    border: 2px solid #ffc600;
+    border-radius: 40px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-booknow:hover {
+    background: none;
+    color: #ffc600;
+}
+
+.head-bg {
+    background-color: #0B1935 !important;
+}
+
+.active {
+    color: #FFC600 !important;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+a.nav-link {
+    color: #ffff;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 35px !important;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.header-content1,
+.header-content2,
+.header-content3 {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 116px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.header-content1 {
+    color: #00edf5 !important;
+}
+
+.header-content2 {
+    color: #4e638d !important;
+}
+
+.header-content3 {
+    color: #fff !important;
+}
+
+/* about us style start  */
+.about-us {
+    background-color: #00edf5 !important;
+}
+
+.about-us h2 {
+
+    font-size: 60px;
+    color: #06122c;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.about-p {
+    color: #06122c;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.about-entry {
+    color: #06122c;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+}
+
+span {
+    font-weight: bolder;
+}
