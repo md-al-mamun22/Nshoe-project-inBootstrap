@@ -106,7 +106,21 @@ span {
     font-style: italic;
 }
 
+.Features2 p {
+    color: #06122c;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
 .Features h2 {
+    font-size: 60px;
+    color: #06122c;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.Features2 h2 {
     font-size: 60px;
     color: #06122c;
     font-weight: 700;
@@ -212,9 +226,11 @@ span {
 .product-single {
     position: relative;
 }
+
 .product-image {
     position: relative;
 }
+
 .product-info {
     position: absolute;
     left: 0;
@@ -223,11 +239,13 @@ span {
     padding: 30px;
     transition: all 0.3s ease-in-out;
 }
+
 .product-info h3 {
     color: #fff;
     font-size: 26px;
     margin-bottom: 4px;
 }
+
 .product-info p {
     color: #fff;
     font-size: 18px;
@@ -245,11 +263,13 @@ span {
     margin-top: 8px;
     text-decoration: none;
 }
+
 .btn-booknow:hover {
     background: none;
     color: #ffc600;
 }
-.col-lg-3{
+
+.col-lg-3 {
     padding: 0;
 }
 
@@ -263,4 +283,41 @@ span {
     bottom: 0;
     background: #06122c;
     opacity: 0.4;
+}
+
+/* brand logo style  */
+.brand-logo {
+    background-color: #f2f6f6;
+
+}
+
+/* contact us style  */
+
+.contact-us p {
+
+    color: #bbbbbb;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+
+/* footer style  */
+footer {
+    background-color: #06122c;
+}
+
+footer .nav-link {
+    color: #ffff;
+    font-family: 'Rubik', sans-serif !important;
+    padding-left: 15px !important;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer-nav:hover {
+    color: #ffc107;
+}
+
+i:hover {
+    color: #ffc600 !important;
 }
